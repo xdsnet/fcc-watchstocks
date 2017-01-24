@@ -1,0 +1,31 @@
+{
+  "name": "fcc-watchstocks",
+  "version": "1.0.0",
+  "description": "ok",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdsnet/fcc-watchstocks.git"
+  },
+  "keywords": [
+    "fcc",
+    "watchstocks"
+  ],
+  "author": "xdsnet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xdsnet/fcc-watchstocks/issues"
+  },
+  "homepage": "https://github.com/xdsnet/fcc-watchstocks#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "ladash": "^1.2.0"
+  }
+}

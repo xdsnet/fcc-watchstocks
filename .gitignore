@@ -1,0 +1,11 @@
+/node_modules
+/test
+mlab.md
+.myenv
+.env
+*.log
+*.tmp
+todo.md
+test.js
+*.crt
+*.pem
