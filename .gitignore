@@ -9,3 +9,5 @@ todo.md
 test.js
 *.crt
 *.pem
+all.lst
+./stockListA.js

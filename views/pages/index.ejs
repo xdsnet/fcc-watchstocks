@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+  <% include ../partials/nav.ejs %>
+  <br>
+
+  <!-- Begin Container -->
+<!-- 展示股票历史行情 -->
+<div class="container" id="stocks">
+</div>
+
+<!-- 展示追踪列表信息 -->
+<div class="container" id="lists">
+</div>
+  <!-- /.container -->
+  <!--一段空白，方便结果展示全面-->
+  <div class="empt">
+  
+  </div>
+  <% include ../partials/footer.ejs %>
+
+  <script>
+$(document).ready(function(){
+  myping();
+  setInterval(myping,10000);//60秒检查一次状态，一个心跳检测信号
+});
+  </script>
+</body>
+</html>
