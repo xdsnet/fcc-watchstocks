@@ -160,7 +160,9 @@ var getAInfo=function(indata){
 
 
 var getA=function(inN){ // 股票数据获取
-    var _url="http://q.stock.sohu.com/hisHq?";
+    //var _url="https://q.stock.sohu.com/hisHq?";
+   // var _url="https://q.stock.sohu.com/hisHq?";
+    var _url="//q.stock.sohu.com/hisHq?";
     _url+="code=cn_"+inN;
     _url+="&start="+preYearDay;
     _url+="&end="+toDay;
